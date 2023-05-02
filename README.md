@@ -2,6 +2,8 @@
 
 In this repo, we release a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. In this release, we're releasing a public preview of the 7B OpenLLaMA model that has been trained with 200 billion tokens. We provide PyTorch and Jax weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. Stay tuned for our updates.
 
+- [JAX and PyTorch weights on Huggingface Hub](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+
 
 ## Dataset and Training
 
