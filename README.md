@@ -14,7 +14,7 @@ prepend the BOS token (id=1) at generation time. Our 200B checkpoint is sensitiv
 to this and may produce degraded results without BOS token at the beginning. Hence,
 we recommend always prepending the BOS token when using our 200B checkpoint.
 
-In an effort to make our model boradly compatible with existing implementations, we have now
+In an effort to make our model broadly compatible with existing implementations, we have now
 released a new 300B checkpoint, which is less sensitive to BOS token and can be used
 either way.
 
