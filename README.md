@@ -2,7 +2,21 @@
 
 In this repo, we release a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. In this release, we're releasing a public preview of the 7B OpenLLaMA model that has been trained with 200 billion tokens. We provide PyTorch and Jax weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. Stay tuned for our updates.
 
-- [JAX and PyTorch weights on Huggingface Hub](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+**JAX and PyTorch Weights on Huggingface Hub**
+- [200B Checkpoint](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+- [300B Checkpoint](https://huggingface.co/openlm-research/open_llama_7b_preview_300bt)
+
+
+## Update 5/3/2023
+We have released a new checkpoint of OpenLLaMA 7B trained on 300B tokens. In communicating
+with our users, we have realized that many existing implementations of LLaMA does not
+prepend the BOS token (id=1) at generation time. Our 200B checkpoint is sensitive
+to this and may produce degraded results without BOS token at the beginning. Hence,
+we recommend always prepending the BOS token when using our 200B checkpoint.
+
+In an effort to make our model boradly compatible with existing implementations, we have now
+released a new 300B checkpoint, which is less sensitive to BOS token and can be used
+either way.
 
 
 ## Dataset and Training
