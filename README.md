@@ -91,6 +91,12 @@ OpenLLaMA is developed by:
 *Equal Contribution
 
 
+## Resources
+
+- [How to run OpenLLaMa on Google Colab with Hugging Face Transformers (YouTube Video)](https://www.youtube.com/watch?v=1NOPciKuQb8)
+- [Hacker News Discussion of OpenLLaMa](https://news.ycombinator.com/item?id=35798888)
+
+
 ## Reference
 
 If you found OpenLLaMA useful in your research or applications, please cite using the following BibTeX:
