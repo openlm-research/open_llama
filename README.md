@@ -2,7 +2,7 @@
 
 In this repo, we release a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. In this release, we're releasing a public preview of the 7B OpenLLaMA model that has been trained with 200 billion tokens. We provide PyTorch and Jax weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. Stay tuned for our updates.
 
-**JAX and PyTorch Weights on Huggingface Hub**
+**JAX and PyTorch Weights on Hugging Face Hub**
 - [200B Tokens Checkpoint](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
 - [300B Tokens Checkpoint](https://huggingface.co/openlm-research/open_llama_7b_preview_300bt)
 
@@ -69,7 +69,7 @@ The original LLaMA model was trained for 1 trillion tokens and GPT-J was trained
 
 ## Preview Weights Release and Usage
 
-To encourage the feedback from the community, we release a preview checkpoint of our weights. The checkpoint can be downloaded from [HuggingFace Hub](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt). We release the weights in two formats: an EasyLM format to be use with our [EasyLM framework](https://github.com/young-geng/EasyLM), and a PyTorch format to be used with the [Huggingface Transformers](https://huggingface.co/docs/transformers/index) library.
+To encourage the feedback from the community, we release a preview checkpoint of our weights. The checkpoint can be downloaded from [Hugging Face Hub](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt). We release the weights in two formats: an EasyLM format to be use with our [EasyLM framework](https://github.com/young-geng/EasyLM), and a PyTorch format to be used with the [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) library.
 
 For using the weights in our EasyLM framework, please refer to the [LLaMA documentation of EasyLM](https://github.com/young-geng/EasyLM/blob/main/docs/llama.md). Note that unlike the original LLaMA model, our OpenLLaMA tokenizer and weights are trained completely from scratch so it is no longer needed to obtain the original LLaMA tokenizer and weights. For using the weights in the transformers library, please follow the [transformers LLaMA documentation](https://huggingface.co/docs/transformers/main/model_doc/llama). Note that we use BOS (beginning of sentence) token (id=1) during training, so it is important to prepend this token for best performance during few-shot evaluation.
 
