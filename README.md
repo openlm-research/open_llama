@@ -115,6 +115,11 @@ OpenLLaMA is developed by:
 *Equal Contribution
 
 
+## Acknowledgment
+
+We thank the [Google TPU Research Cloud](https://sites.research.google/trc/about/) program for providing part of the computation resources. We’d like to specially thank Jonathan Caton from TPU Research Cloud for helping us organizing compute resources, Rafi Witten from the Google Cloud team and James Bradbury from the Google JAX team for helping us optimizing our training throughput. We’d also want to thank Charlie Snell, Gautier Izacard, Eric Wallace, Lianmin Zheng and our user community for the discussions and feedback.
+
+
 ## Reference
 
 If you found OpenLLaMA useful in your research or applications, please cite using the following BibTeX:
