@@ -106,8 +106,8 @@ The original LLaMA model was trained for 1 trillion tokens and GPT-J was trained
 | arc_challenge/acc_norm | 0.37     | 0.41     | 0.38         | 0.37         | 0.42                |
 | arc_easy/acc           | 0.67     | 0.68     | 0.72         | 0.69         | 0.74                |
 | arc_easy/acc_norm      | 0.62     | 0.52     | 0.68         | 0.65         | 0.70                |
-| ddboolq/acc            | 0.50     | 0.56     | 0.53         | 0.49         | 0.71                |
-| hellaswag/acc          | 0.36     | 0.36     | 0.63         | 0.43         | 0.54                |
+| boolq/acc              | 0.66     | 0.75     | 0.71         | 0.68         | 0.71                |
+| hellaswag/acc          | 0.50     | 0.56     | 0.53         | 0.49         | 0.54                |
 | hellaswag/acc_norm     | 0.66     | 0.73     | 0.72         | 0.67         | 0.73                |
 | openbookqa/acc         | 0.29     | 0.29     | 0.30         | 0.27         | 0.30                |
 | openbookqa/acc_norm    | 0.38     | 0.41     | 0.40         | 0.40         | 0.41                |
@@ -120,7 +120,7 @@ The original LLaMA model was trained for 1 trillion tokens and GPT-J was trained
 | truthfulqa_mc/mc2      | 0.36     | 0.34     | 0.35         | 0.35         | 0.35                |
 | wic/acc                | 0.50     | 0.50     | 0.51         | 0.48         | 0.49                |
 | winogrande/acc         | 0.64     | 0.68     | 0.67         | 0.62         | 0.67                |
-| Average                | 0.51     | 0.53     | 0.55         | 0.52         | 0.56                |
+| Average                | 0.52     | 0.55     | 0.55         | 0.53         | 0.56                |
 
 
 We removed the task CB and WSC from our benchmark, as our model performs suspiciously high on these two tasks. We hypothesize that there could be a benchmark data contamination in the training set.
