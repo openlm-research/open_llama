@@ -98,7 +98,7 @@ We train our models on the [RedPajama](https://www.together.xyz/blog/redpajama) 
 We train the models on cloud TPU-v4s using [EasyLM](https://github.com/young-geng/EasyLM), a JAX based training pipeline we developed for training and fine-tuning large language models. We employ a combination of normal data parallelism and [fully sharded data parallelism (also know as ZeRO stage 3)](https://engineering.fb.com/2021/07/15/open-source/fsdp/) to balance the training throughput and memory usage. Overall we reach a throughput of over 2200 tokens / second / TPU-v4 chip for our 7B model. The training loss can be seen in the figure below.
 
 
-![](media/loss.png)
+![](media/loss_combined.png)
 
 
 
