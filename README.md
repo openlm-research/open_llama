@@ -3,7 +3,7 @@
 **TL;DR**: we are releasing our public preview of OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B and 13B trained on the RedPajama dataset. Our model weights can serve as the drop in replacement of LLaMA in existing implementations. We also provide a smaller 3B variant of LLaMA model.
 
 
-In this repo, we present a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. We are releasing 3B, 7B and 17B models trained on 1T tokens. We provide PyTorch and JAX weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. Stay tuned for our updates.
+In this repo, we present a permissively licensed open source reproduction of Meta AI's [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) large language model. We are releasing 3B, 7B and 13B models trained on 1T tokens. We provide PyTorch and JAX weights of pre-trained OpenLLaMA models, as well as evaluation results and comparison against the original LLaMA models. Stay tuned for our updates.
 
 PyTorch weights for Hugging Face transformers:
 
