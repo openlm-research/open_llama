@@ -27,7 +27,7 @@ In this repo, we present a permissively licensed open source reproduction of Met
 ## Updates
 
 #### 07/15/2023
-We are releasing the OpenLLaMA 3Bv3 model, which is a 3B model trained for 1T tokens on the same dataset mixture as the 7Bv2 model.
+We are releasing the OpenLLaMA 3Bv2 model, which is a 3B model trained for 1T tokens on the same dataset mixture as the 7Bv2 model.
 
 #### 07/07/2023
 We are happy to release an OpenLLaMA 7Bv2 model, which is trained on a mixture of [Falcon refined-web dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb), mixed with the [starcoder dataset](https://huggingface.co/datasets/bigcode/starcoderdata), and the wikipedia, arxiv and books and stackexchange from [RedPajama](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T).
